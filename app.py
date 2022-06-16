@@ -1,7 +1,5 @@
 
 # errol mamani
-# based tutorial : https://towardsdatascience.com/machine-learning-model-deployment-as-rest-api-in-four-easy-steps-e65764f7c5c
-# https://towardsdatascience.com/machine-learning-model-deployment-as-rest-api-in-four-easy-steps-e65764f7c5c
 # " 2022"
 from sklearn.externals import joblib
 import numpy as np
