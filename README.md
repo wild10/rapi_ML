@@ -36,10 +36,26 @@ python inference.py
 ```
 
 * api (first for testing you should install [postmant](https://www.postman.com/) and run app.py)
-
+* first run
 ```
 python app.py
 ```
+
+-  in the POST : http://127.0.0.1:12345/prediction
+-  body --> raw (JSON)
+    -  sample input
+    ```[
+{"order_id":"14924129", "store_id":"900007722","to_user_distance":2.188069 ,"to_user_elevation":43.430176,"total_earning":5600,"created_at":"2017-09-17T14:36:51Z"},
+{"order_id":"14924129", "store_id":"900007722","to_user_distance":2.188069 ,"to_user_elevation":43.430176,"total_earning":5500,"created_at":"2017-09-17T14:36:51Z"},
+{"order_id":"14924129", "store_id":"900007722","to_user_distance":2.188069 ,"to_user_elevation":43.430176,"total_earning":5500,"created_at":"2017-09-17T14:36:51Z"}
+]
+```
+    -  output
+    ```
+    {
+    "prediction": "[1, 1, 1]"
+}
+    ```
 
 * docker image (ubuntu 20.4)
 ```
