@@ -21,6 +21,7 @@ sklearn 0.21.2
 joblib 0.13.2
 pickl4 4.0
 imblearn 0.5.0
+flask 2.1.2
 ```
 ## run
 * train (in your virtual env)
