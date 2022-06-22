@@ -41,6 +41,7 @@ python inference.py
 ```
 python app.py
 ```
+![alt text](demo.png)
 
 -  in the POST : http: //127.0.0.1:12345 /prediction
 
