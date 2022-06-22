@@ -8,6 +8,9 @@ this is a repo from the ML model developed with test purpose with sample data. t
 - dataset(csv files):
   - datase (train data for develop)
   - orders_test (test data for develp)
+## if you want to see experiments view you can access the colab version here
+
+[Jypyter-notebook experiments](https://colab.research.google.com/drive/1QWQWLG2iSgwqlUHUweqEy79fw-vLTgeX?usp=sharing) 
   
 ## instalation dependencies
 * we are using virtual env fron anaconda with ubuntu 20.4 LTS
